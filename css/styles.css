@@ -90,46 +90,6 @@ p {
   line-height: 1.2vw;
 }
 
-.text-gray {
-  color: #5A5A5A;
-}
-
-.text-black {
-  color: #000000;
-}
-
-.text-white {
-  color: #FFFFFF;
-}
-
-.gray-line {
-  margin: 1vw 0;
-  width: 100%;
-  height: 1px;
-  background-color: #C8C8C8;
-}
-
-.green-line {
-  margin: 0.5vw 0;
-  width: 100%;
-  height: 1px;
-  background-color: #84E299;
-}
-
-.cian-line {
-  margin: 0.5vw 0;
-  width: 100%;
-  height: 1px;
-  background-color: #5DDACE;
-}
-
-.blue-line {
-  margin: 0.5vw 0;
-  width: 100%;
-  height: 1px;
-  background-color: #76D0E3;
-}
-
 /* Header */
 .header {
   display: flex;
@@ -331,34 +291,6 @@ p {
   height: 5vw;
 }
 
-
-@media (max-width: 768px) {
-  .section-hero {
-    flex-direction: column;
-    gap: 2vw;
-  }
-
-  .half-section {
-    width: 100%;
-  }
-
-  .section-hero-half-1 h3 {
-    font-size: 5vw;
-    line-height: 6vw;
-  }
-
-  .section-hero-half-1 h1 {
-    font-size: 10vw;
-    line-height: 12vw;
-  }
-  
-  .section-hero-half-1 p {
-    font-size: 3vw;
-    line-height: 5vw;
-  }
-
-}
-
 /* Functions */
 .functions {
   background-color: #126D76; 
@@ -418,14 +350,6 @@ p {
   font-style: italic;
 }
 
-
-@media (max-width: 768px) {
-  .func-cards-row-1, .func-cards-row-2 {
-      flex-direction: column;
-      gap: 0.5vw;
-  }
-}
-
 /* Work Principle */
 .principle {
   padding: 1vw;
@@ -455,8 +379,8 @@ p {
 }
 
 .principle-card p {
-  margin: 10px 0;
-  font-size: 1rem;
+  margin: 1vw 0;
+  font-size: 1vw;
 }
 
 .principle-card-img {
@@ -488,12 +412,12 @@ p {
   content: "";
   position: absolute;
   top: 50%;
-  right: -2.5vw;
+  right: -1.5vw;
   transform: translateY(-50%);
-  width: 10vw;
+  width: 6vw;
   height: 5vw;
   background-color: #e9f9e9;
-  clip-path: ellipse(40% 40%);
+  clip-path: ellipse(50% 30%);
   z-index: 2;
 }
 
@@ -501,12 +425,12 @@ p {
   content: "";
   position: absolute;
   top: 50%;
-  left: -5vw;
+  left: -4vw;
   transform: translateY(-50%);
-  width: 8vw;
+  width: 6vw;
   height: 5vw;
   background-color: #FFFFFF;
-  clip-path: ellipse(30% 50%);
+  clip-path: ellipse(40% 40%);
   z-index: 4;
 }
 
@@ -514,12 +438,12 @@ p {
   content: "";
   position: absolute;
   top: 50%;
-  right: -2.5vw;
+  right: -1.5vw;
   transform: translateY(-50%);
-  width: 10vw;
+  width: 6vw;
   height: 5vw;
   background-color: #e6f8f8;
-  clip-path: ellipse(40% 40%);
+  clip-path: ellipse(50% 30%);
   z-index: 2;
 }
 
@@ -527,37 +451,13 @@ p {
   content: "";
   position: absolute;
   top: 50%;
-  left: -5vw;
+  left: -4vw;
   transform: translateY(-50%);
-  width: 8vw;
+  width: 6vw;
   height: 5vw;
   background-color: #FFFFFF;
-  clip-path: ellipse(30% 50%);
+  clip-path: ellipse(40% 40%);
   z-index: 2;
-}
-
-@media (max-width: 768px) {
-  .principle-cards {
-      flex-direction: column;
-      gap: 15px;
-  }
-
-  .principle-card {
-      text-align: center;
-  }
-
-  .principle-card h3 {
-      font-size: 1.25rem;
-  }
-
-  .principle-card p {
-      font-size: 0.9rem;
-  }
-
-  .principle-card-img {
-      right: 50%; /* Center image horizontally in smaller viewports */
-      transform: translateX(50%);
-  }
 }
 
 /* Composition */
@@ -666,34 +566,7 @@ p {
 
 .bolus-information-text {
   font-size: 1vw;
-}
-
-@media (max-width: 768px) {
-  h2 {
-      font-size: 5vw;
-  }
-
-  .bolus-general {
-      flex-direction: column;
-  }
-
-  .bolus-general-main-title,
-  .bolus-general-functions-title {
-      font-size: 2vw;
-  }
-
-  .bolus-general-main-text,
-  .bolus-general-functions-text {
-      font-size: 1.8vw;
-  }
-
-  .bolus-image-png {
-      max-width: 50vw;
-  }
-
-  .bolus-information {
-      grid-template-columns: 1fr;
-  }
+  line-height: 1.2vw;
 }
 
 
@@ -781,35 +654,6 @@ p {
   z-index: 1;
 }
 
-@media (max-width: 768px) {
-  .base-station-general {
-      flex-direction: column;
-  }
-
-  .base-station-general-main-title,
-  .base-station-information-title {
-      font-size: 2vw;
-  }
-
-  .base-station-general-main-text,
-  .base-station-information-text {
-      font-size: 1.8vw;
-  }
-
-  .base-station-img-bg {
-      border-radius: 15%; /* Adjust for smaller screens */
-  }
-
-  .base-station-image-png {
-      max-width: 80vw;
-  }
-
-  .base-station-general-information {
-      grid-template-columns: 1fr;
-  }
-}
-
-
 .software-grid {
   margin-top: 7vw;
   display: grid;
@@ -833,7 +677,7 @@ p {
   background-color: #F4F4F4;
   gap: 1vw;
   padding: 1vw;
-  border-radius: 15px;
+  border-radius: 1.5vw;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
 }
 
@@ -854,7 +698,7 @@ p {
 
 .software-image-png {
   position: absolute;
-  width: 90%;
+  width: 100%;
   height: auto;
   border-radius: 2vw;
 }
@@ -967,10 +811,14 @@ p {
 
 .circle-check-icon {
   margin-right: 1vw;
+  width: 2vw;
+  height: auto;
 }
 
 .circle-cross-icon {
   margin-right: 1vw;
+  width: 2vw;
+  height: auto;
 }
 
 .advantages-table-row-text {
@@ -1182,6 +1030,7 @@ p {
 
 .advantages-economics-2-1-text-2-1 {
   font-size: 6vw;
+  line-height: 8vw;
   font-weight: 300;
   padding: 1vw 0;
   font-family: 'Vela Sans GX', sans-serif;
@@ -1193,6 +1042,7 @@ p {
   padding-top: 2vw;
   color: #5A5A5A;
   font-size: 2vw;
+  line-height: 3vw;
 }
 
 .advantages-economics-2-1-text-3 {
@@ -1228,24 +1078,274 @@ p {
   line-height: 1vw;
 }
 
-/* Media query for smaller screens */
-@media (max-width: 600px) {
-  .advantages-economics-2-2-text {
-    font-size: 3vw; /* Adjust font size for smaller screens */
-  }
+/* Requirements */
+.requirements-title {
+  text-align: center;
+  padding: 0 4vw;
+}
 
-  .additional-advantage {
-    flex: 1 1 100%; /* On small screens, the blocks will take full width */
-  }
+.requirements-1 {
+  display: flex;
+  justify-content: center;
+}
 
-  .additional-advantage-text {
-    font-size: 2.5vw; /* Adjust text size for smaller screens */
-  }
+.requirements-1-block {
+  width: 10vw;
+  margin: 3vw 5vw 3vw 5vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.requirements-1-icon {
+  width: 5vw;
+  height: auto;
+  margin: 2vw;
+}
+
+.requirements-1-text {
+  font-size: 1.2vw;
+  font-weight: 600;
+  text-align: center;
+  line-height: 1.5vw;
+  margin-bottom: 1vw;
+}
+
+.requirements-1-subtext {
+  font-size: 0.8vw;
+  font-weight: 400;
+  text-align: center;
+  line-height: 1vw;
+  margin-bottom: 0.5vw;
+}
+
+.requirements-gallery {
+  background-color: #126D76;
+  padding: 3vw;
+  width: 100vw;
+  margin: 0 -7.5vw;
+  left: 0;
+  overflow: hidden;
+  box-sizing: border-box;
+  color: #FFFFFF;
+}
+
+.requirements-gallery-1 {
+  position: relative;
+  margin-bottom: 3vw;
+  display: flex;
+  justify-content: space-between;
+}
+
+.requirements-gallery-title {
+  font-size: 2.5vw;
+  line-height: 3vw;
+  font-family: 'Vela Sans GX', sans-serif;
+  font-weight: 400;
+}
+
+.requirements-gallery-controls {
+  display: flex;
+  width: 7vw;
+  justify-content: space-between; 
+  align-items: center;
+  position: relative; 
+}
+
+.requirements-gallery-button {
+  background-color: #E0F7D2;
+  cursor: pointer;
+  height: 3vw;
+  width: 3vw;
+  border-radius: 50%; 
+  color: #000000;
+  display: flex;
+  font-size: 1.5vw;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  position: absolute; 
+  top: 50%; 
+  transform: translateY(-50%); 
 }
 
 
-/* Footer */
+.requirements-gallery-left-button {
+  left: 0; 
+}
 
+.requirements-gallery-right-button {
+  right: 0; 
+}
+
+.requirements-gallery-2 {
+  display: flex;
+  transition: transform 0.5s ease;
+}
+
+.requirements-gallery-slide {
+  min-width: 80%;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.requirements-gallery-slide-image {
+  max-width: 50vw;
+  height: auto;
+}
+
+.requirements-gallery-slide-text {
+  margin: 2vw;
+  height: 100%;
+}
+
+.requirements-gallery-slide-text-title {
+  font-size: 2vw;
+  font-weight: 500;
+  line-height: 2vw;
+  padding: 2vw 0 5vw 0;
+}
+
+.requirements-gallery-slide-text-main {
+  font-size: 1vw;
+  line-height: 1.2vw;
+  font-weight: 200;
+}
+
+.partners {
+  padding: 3vw 10vw;
+}
+
+.partners-title {
+  text-align: center;
+  font-size: 3vw;
+  line-height: 4vw;
+  font-family: "Vela Sans GX", sans-serif;
+  font-weight: 500;
+}
+
+.partners-images {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 2vw;
+  padding: 0 5vw;
+}
+
+.partners-image {
+  height: auto;
+  width: 25vw;
+}
+
+/* Contacts */
+.contacts {
+  margin: 3vw 10vw;
+  background-color: #F4F4F4;
+  border-radius: 2vw;
+  padding: 3vw;
+  display: flex;
+  justify-content: space-between;
+}
+
+.contacts-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.contacts-1 h3 {
+  font-size: 1.5vw;
+  font-weight: 500;
+  font-family: "Vela Sans GX", sans-serif;
+  line-height: 3vw;
+}
+
+.contacts-1 h2 {
+  font-size: 4vw;
+  font-weight: 700;
+  font-family: "Vela Sans GX", sans-serif;
+  line-height: 5vw;
+}
+
+
+.contacts-button {
+  background-color: #126D76;
+  color: #fff;
+  padding: 1.5vw 2vw;
+  border: none;
+  cursor: pointer;
+  font-size: 1.2vw;
+  border-radius: 16px;
+}
+
+.contacts-3 p {
+  font-size: 1.2vw;
+}
+
+.contacts-3-1 {
+  display: flex;
+  gap: 1vw;
+  justify-content: start;
+  align-items: center;
+  margin-bottom: 1vw;
+}
+
+.contacts-3-2 {
+  display: flex;
+  gap: 1vw;
+  justify-content: start;
+  align-items: center;
+  margin-bottom: 1vw;
+}
+
+/* Footer */
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1vw 7.5vw;
+  background-color: #ffffff;
+  color: #001D13;
+  font-size: 0.8vw;
+}
+
+.footer-logo img {
+  height: 3vw;
+}
+
+.footer-nav-list {
+  display: flex;
+  list-style: none;
+  gap: 1vw;
+}
+
+.footer a {
+  color: #001D13;
+  text-decoration: none;
+}
+
+.footer-nav-list a:hover {
+  text-decoration: underline;
+}
+
+.footer-contacts {
+  display: flex;
+  gap: 1vw;
+  align-items: center;
+}
+
+.footer-socials {
+  display: flex;
+  gap: 0.5vw;
+  align-items: center;
+}
+
+.footer-icon {
+  width: 2vw;
+  height: auto;
+}
 
 /* Back to Top Button */
 .back-to-top {
@@ -1266,6 +1366,48 @@ p {
 /* Utility Classes */
 .hidden {
   display: none;
+}
+
+
+
+.text-gray {
+  color: #5A5A5A;
+}
+
+.text-black {
+  color: #000000;
+}
+
+.text-white {
+  color: #FFFFFF;
+}
+
+.gray-line {
+  margin: 1vw 0;
+  width: 100%;
+  height: 1px;
+  background-color: #C8C8C8;
+}
+
+.green-line {
+  margin: 0.5vw 0;
+  width: 100%;
+  height: 1px;
+  background-color: #84E299;
+}
+
+.cian-line {
+  margin: 0.5vw 0;
+  width: 100%;
+  height: 1px;
+  background-color: #5DDACE;
+}
+
+.blue-line {
+  margin: 0.5vw 0;
+  width: 100%;
+  height: 1px;
+  background-color: #76D0E3;
 }
 
 @media (max-width: 768px) {
