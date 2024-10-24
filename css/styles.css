@@ -129,6 +129,7 @@ p {
   border-radius: 0.75vw;
   display: flex;
   align-items: center;
+  text-decoration: none;
 }
 
 .lk-icon {
@@ -138,6 +139,11 @@ p {
 .personal-account-text {
   margin-left: 1vw; 
   font-size: 1.5vw;
+  text-decoration: none;
+}
+
+.header-personal-account-button-link {
+  text-decoration: none;
 }
 
 .personal-account-button:hover {
@@ -1422,6 +1428,10 @@ p {
   width: 100%;
   height: 1px;
   background-color: #76D0E3;
+}
+
+.empty-link {
+  text-decoration: none;
 }
 
 @media (max-width: 768px) {
