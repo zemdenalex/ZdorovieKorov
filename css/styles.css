@@ -1305,6 +1305,16 @@ p {
   margin-bottom: 1vw;
 }
 
+.contacts-logo {
+  max-width: 30vw;
+  height: auto;
+}
+
+.contacts-icon {
+  max-width: 3vw;
+  height: auto;
+}
+
 /* Footer */
 .footer {
   display: flex;
